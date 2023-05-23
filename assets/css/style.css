@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    /* background-color: rgb(154, 183, 3); */
+    background: url(../images/board4.jpg);
+    height: 100vh;
+    width: 100vw;
+    user-select: none;
+}
+.container{
+    padding: 20px;
+    text-align: center;
+}
+.score{
+    display: flex;
+    justify-content: space-between;
+}
+.score h2{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: rgb(0, 199, 3);
+}
+
+canvas{
+    margin-top: 30px;
+    /* background: url(/assists/images/board_2.webp); */
+    height: 500px;
+    width: 1100px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+.snake_cont{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+.snake_cont img{
+    width: 200px;
+}
